@@ -1,0 +1,21 @@
+import { Swatches } from '../swatches/Swatches';
+import reactCSS from 'reactcss'
+
+
+class PickColor extends React.Component {
+
+    constructor() {
+        state = {
+            primaryColor: '#194D33',
+        }
+    }
+
+    handleChange = (primaryColor) => this.setState({ primaryColor })
+
+    
+    render() {
+      
+    }
+
+}
+export default PickColor
